@@ -1,8 +1,5 @@
 package com.maxi.demo.model;
 
-import java.time.LocalDate;
-import java.util.Date;
-
 public class Identificacao {
 
     private String nomeCompleto;
@@ -26,30 +23,30 @@ public class Identificacao {
     }
 
     public String getNomeCompleto() {
-        return nomeCompleto;
+        return this.nomeCompleto;
     }
 
     public String getCpf() {
-        return cpf;
+        return this.cpf;
     }
 
     public String getDataNascimento() {
-        return dataNascimento;
+        return this.dataNascimento;
     }
 
     public String getSexo() {
-        return sexo;
+        return this.sexo;
     }
 
     public String getEstadoCivil() {
-        return estadoCivil;
+        return this.estadoCivil;
     }
 
     public String getNaturalidade() {
-        return naturalidade;
+        return this.naturalidade;
     }
 
     public String getNacionalidade() {
-        return nacionalidade;
+        return this.nacionalidade;
     }
 }

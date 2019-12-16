@@ -4,17 +4,23 @@ public class Profissional {
 
     private String profissao;
     private String formacao;
+    private String renda;
 
-    public Profissional(final String profissao, final String formacao){
+    public Profissional(final String profissao, final String formacao, final String renda){
         this.profissao = profissao;
         this.formacao = formacao;
+        this.renda = renda;
     }
 
     public String getProfissao() {
-        return profissao;
+        return this.profissao;
     }
 
     public String getEscolaridade() {
-        return formacao;
+        return this.formacao;
+    }
+
+    public String getRenda() {
+        return this.renda;
     }
 }

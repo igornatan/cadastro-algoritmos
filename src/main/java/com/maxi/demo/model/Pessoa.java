@@ -20,18 +20,18 @@ public class Pessoa {
     }
 
     public Identificacao getIdentificacao() {
-        return identificacao;
+        return this.identificacao;
     }
 
     public Profissional getProfissional() {
-        return profissional;
+        return this.profissional;
     }
 
     public Residencia getResidencia() {
-        return residencia;
+        return this.residencia;
     }
 
     public Contato getContato() {
-        return contato;
+        return this.contato;
     }
 }

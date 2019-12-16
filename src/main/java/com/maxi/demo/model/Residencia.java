@@ -24,30 +24,30 @@ public class Residencia {
     }
 
     public String getLogradouro() {
-        return logradouro;
+        return this.logradouro;
     }
 
     public String getTipoEndereco() {
-        return tipoEndereco;
+        return this.tipoEndereco;
     }
 
     public String getCep() {
-        return cep;
+        return this.cep;
     }
 
     public String getNumero() {
-        return numero;
+        return this.numero;
     }
 
     public String getBairro() {
-        return bairro;
+        return this.bairro;
     }
 
     public String getComplemento() {
-        return complemento;
+        return this.complemento;
     }
 
     public String getMunicipio() {
-        return municipio;
+        return this.municipio;
     }
 }

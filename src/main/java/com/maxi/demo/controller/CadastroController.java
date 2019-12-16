@@ -21,7 +21,8 @@ public class CadastroController {
 
         Profissional profissional = new Profissional(
                 "Desenvolvedor",
-                "Graduando"
+                "Graduando",
+                "1.000,00"
         );
 
         Residencia residencia = new Residencia(
@@ -43,10 +44,6 @@ public class CadastroController {
 
         Pessoa pessoa = new Pessoa(identificacao, profissional, residencia, contato);
 
-        for (int i = 0; i < 4; i++){
-            System.out.println(pessoa);
-        }
-
         return pessoa;
     }
 
@@ -54,4 +51,5 @@ public class CadastroController {
     public String index(){
         return "Teste";
     }
+
 }

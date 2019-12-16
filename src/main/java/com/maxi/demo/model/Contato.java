@@ -7,7 +7,12 @@ public class Contato {
     private String emailParticular;
     private String emailComercial;
 
-    public Contato(final String telefone, final String tipoTelefone, final String emailComercial, final String emailParticular){
+    public Contato(
+            final String telefone,
+            final String tipoTelefone,
+            final String emailComercial,
+            final String emailParticular
+    ) {
         this.telefone = telefone;
         this.tipoTelefone = tipoTelefone;
         this.emailComercial = emailComercial;
@@ -15,18 +20,18 @@ public class Contato {
     }
 
     public String getTelefone() {
-        return telefone;
+        return this.telefone;
     }
 
     public String getTipoTelefone() {
-        return tipoTelefone;
+        return this.tipoTelefone;
     }
 
     public String getEmailParticular() {
-        return emailParticular;
+        return this.emailParticular;
     }
 
     public String getEmailComercial() {
-        return emailComercial;
+        return this.emailComercial;
     }
 }
